@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D17E05024F384750020D043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17E04F24F384750020D043 /* AppDelegate.swift */; };
+		1D17E05224F384750020D043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17E05124F384750020D043 /* SceneDelegate.swift */; };
+		1D17E05724F384750020D043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D17E05524F384750020D043 /* Main.storyboard */; };
+		1D17E05924F384770020D043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D17E05824F384770020D043 /* Assets.xcassets */; };
+		1D17E05C24F384770020D043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D17E05A24F384770020D043 /* LaunchScreen.storyboard */; };
+		1D17E06424F388070020D043 /* RidersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17E06324F388070020D043 /* RidersVC.swift */; };
+		1D17E06624F388240020D043 /* FaresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17E06524F388240020D043 /* FaresVC.swift */; };
+		1D17E06824F3884A0020D043 /* BuyTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17E06724F3884A0020D043 /* BuyTicketVC.swift */; };
+		1D17E06E24F38FB90020D043 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17E06D24F38FB90020D043 /* UserModel.swift */; };
+		1DF15FEA24F3A714001F97C3 /* Tour.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DF15FE924F3A714001F97C3 /* Tour.json */; };
+		1DF15FEC24F3A813001F97C3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF15FEB24F3A813001F97C3 /* UserManager.swift */; };
+		1DF15FEE24F3B2AC001F97C3 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF15FED24F3B2AC001F97C3 /* CommonExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D17E04C24F384750020D043 /* E-Ticketing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Ticketing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D17E04F24F384750020D043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D17E05124F384750020D043 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D17E05624F384750020D043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D17E05824F384770020D043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D17E05B24F384770020D043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D17E05D24F384770020D043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D17E06324F388070020D043 /* RidersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidersVC.swift; sourceTree = "<group>"; };
+		1D17E06524F388240020D043 /* FaresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaresVC.swift; sourceTree = "<group>"; };
+		1D17E06724F3884A0020D043 /* BuyTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTicketVC.swift; sourceTree = "<group>"; };
+		1D17E06D24F38FB90020D043 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1DF15FE924F3A714001F97C3 /* Tour.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tour.json; sourceTree = "<group>"; };
+		1DF15FEB24F3A813001F97C3 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		1DF15FED24F3B2AC001F97C3 /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D17E04924F384750020D043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D17E04324F384750020D043 = {
+			isa = PBXGroup;
+			children = (
+				1D17E04E24F384750020D043 /* E-Ticketing */,
+				1D17E04D24F384750020D043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D17E04D24F384750020D043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D17E04C24F384750020D043 /* E-Ticketing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D17E04E24F384750020D043 /* E-Ticketing */ = {
+			isa = PBXGroup;
+			children = (
+				1D17E04F24F384750020D043 /* AppDelegate.swift */,
+				1D17E05124F384750020D043 /* SceneDelegate.swift */,
+				1D17E05824F384770020D043 /* Assets.xcassets */,
+				1D17E05D24F384770020D043 /* Info.plist */,
+				1DF15FF224F3C127001F97C3 /* Common */,
+				1DF15FEF24F3C10F001F97C3 /* Models */,
+				1DF15FF124F3C11E001F97C3 /* Views */,
+				1DF15FF024F3C117001F97C3 /* Controllers */,
+			);
+			path = "E-Ticketing";
+			sourceTree = "<group>";
+		};
+		1DF15FEF24F3C10F001F97C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D17E06D24F38FB90020D043 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DF15FF024F3C117001F97C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D17E06324F388070020D043 /* RidersVC.swift */,
+				1D17E06524F388240020D043 /* FaresVC.swift */,
+				1D17E06724F3884A0020D043 /* BuyTicketVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1DF15FF124F3C11E001F97C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D17E05A24F384770020D043 /* LaunchScreen.storyboard */,
+				1D17E05524F384750020D043 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DF15FF224F3C127001F97C3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1DF15FF424F3C186001F97C3 /* Managers */,
+				1DF15FF324F3C17A001F97C3 /* Resources */,
+				1DF15FED24F3B2AC001F97C3 /* CommonExtensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1DF15FF324F3C17A001F97C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DF15FE924F3A714001F97C3 /* Tour.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1DF15FF424F3C186001F97C3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1DF15FEB24F3A813001F97C3 /* UserManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D17E04B24F384750020D043 /* E-Ticketing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D17E06024F384770020D043 /* Build configuration list for PBXNativeTarget "E-Ticketing" */;
+			buildPhases = (
+				1D17E04824F384750020D043 /* Sources */,
+				1D17E04924F384750020D043 /* Frameworks */,
+				1D17E04A24F384750020D043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-Ticketing";
+			productName = "E-Ticketing";
+			productReference = 1D17E04C24F384750020D043 /* E-Ticketing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D17E04424F384750020D043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = technerds;
+				TargetAttributes = {
+					1D17E04B24F384750020D043 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 1D17E04724F384750020D043 /* Build configuration list for PBXProject "E-Ticketing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D17E04324F384750020D043;
+			productRefGroup = 1D17E04D24F384750020D043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D17E04B24F384750020D043 /* E-Ticketing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D17E04A24F384750020D043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D17E05C24F384770020D043 /* LaunchScreen.storyboard in Resources */,
+				1D17E05924F384770020D043 /* Assets.xcassets in Resources */,
+				1D17E05724F384750020D043 /* Main.storyboard in Resources */,
+				1DF15FEA24F3A714001F97C3 /* Tour.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D17E04824F384750020D043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF15FEC24F3A813001F97C3 /* UserManager.swift in Sources */,
+				1D17E06824F3884A0020D043 /* BuyTicketVC.swift in Sources */,
+				1D17E06E24F38FB90020D043 /* UserModel.swift in Sources */,
+				1DF15FEE24F3B2AC001F97C3 /* CommonExtensions.swift in Sources */,
+				1D17E05024F384750020D043 /* AppDelegate.swift in Sources */,
+				1D17E05224F384750020D043 /* SceneDelegate.swift in Sources */,
+				1D17E06624F388240020D043 /* FaresVC.swift in Sources */,
+				1D17E06424F388070020D043 /* RidersVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D17E05524F384750020D043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D17E05624F384750020D043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D17E05A24F384770020D043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D17E05B24F384770020D043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D17E05E24F384770020D043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D17E05F24F384770020D043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D17E06124F384770020D043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 796CJQVDMA;
+				INFOPLIST_FILE = "E-Ticketing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.technerds.E-Ticketing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D17E06224F384770020D043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 796CJQVDMA;
+				INFOPLIST_FILE = "E-Ticketing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.technerds.E-Ticketing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D17E04724F384750020D043 /* Build configuration list for PBXProject "E-Ticketing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D17E05E24F384770020D043 /* Debug */,
+				1D17E05F24F384770020D043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D17E06024F384770020D043 /* Build configuration list for PBXNativeTarget "E-Ticketing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D17E06124F384770020D043 /* Debug */,
+				1D17E06224F384770020D043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D17E04424F384750020D043 /* Project object */;
+}
